@@ -13,6 +13,7 @@ app.use("/admin", adminRouter);
 app.use("/user", userRouter);
 
 app.get("/", (req, res) => res.json({ msg: "Hello world" }));
+// yo yo honey singh
 
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
